@@ -8,7 +8,7 @@
     "> 1%",
     "maintained node versions",
     "not dead"
-],
+  ],
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
     "webpack:watch": "webpack --watch --config webpack.dev.js",
