@@ -1,12 +1,6 @@
 Background 
 
-Guitar hero is a classic game. What I will bring you is an extnesion of the guitar hero legacy. Ferrell hero will provide your favorite clips of Will Ferrell singing for you to play along to. On your keyboard you will play along to the notes that he is singing. Here are some examples 
-
-https://www.youtube.com/watch?v=hzwIAUN3m4c start around 2:20
-https://www.youtube.com/watch?v=Fu34xDm6ZBI :46
-https://www.youtube.com/watch?v=k6dE0DckMHY :22
-
-The videos would be playing in the background, while the notes are coming at you in the style of guitar hero. 
+Guitar but with your favorite man, Napolean Dynamite!
 
 Funcitonality and MVP 
 - Determine if you hit the notes at the appropriate time 
