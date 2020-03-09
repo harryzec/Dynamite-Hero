@@ -5,6 +5,7 @@ import Instructions from './instructions'
 
 export default class FerrellHero {
   constructor(canvas) {
+    
     this.ctx = canvas.getContext("2d");
     this.drawBackground = this.drawBackground.bind(this)
     this.dimensions = { width: canvas.width, height: canvas.height };
@@ -36,6 +37,7 @@ export default class FerrellHero {
   }
 
   startGame(e) {
+    debugger
     if (!this.player) {
       this.player = true;
       const video = document.getElementById('Napolean');

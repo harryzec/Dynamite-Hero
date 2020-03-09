@@ -38,7 +38,8 @@ export default class Afternoon {
     {key: 'D', seconds: 30.6, tail: 50}, {key: 'F', seconds: 31.1, tail: 0}, {key: 'S', seconds: 31.1, tail: 0}, {key: 'D', seconds: 31.3, tail: 50}, {key: 'A', seconds: 31.3, tail: 50}, {key: 'F', seconds: 31.9, tail: 0}, {key: 'F', seconds: 32.1, tail: 0},
     {key: 'D', seconds: 32.3, tail: 0},{key: 'F', seconds: 32.5, tail: 0}, {key: 'D', seconds: 32.7, tail: 0}, {key: 'F', seconds: 33, tail: 0}, {key: 'A', seconds: 33.3, tail: 50}, {key: 'S', seconds: 33.8, tail: 50}, {key: 'D', seconds: 34.2, tail: 50},
     {key: 'S', seconds: 34.6, tail: 0}, {key: 'S', seconds: 35.4, tail: 0}, {key: 'S', seconds: 35.6, tail: 0}, {key: 'D', seconds: 35.8, tail: 0}, {key: 'A', seconds: 36, tail: 0}, {key: 'S', seconds: 36.2, tail: 0}, {key: 'S', seconds: 36.4, tail: 0}, {key: 'D', seconds: 36.6, tail: 0},
-    {key: 'A', seconds: 36.8, tail: 0}, {key: 'S', seconds: 37, tail: 0}, {key: 'A', seconds: 37.9, tail: 40}, {key: 'S', seconds: 38.2, tail: 40}, {key: 'D', seconds: 38.5, tail: 40},
+    {key: 'A', seconds: 36.8, tail: 0}, {key: 'S', seconds: 37, tail: 0}, {key: 'A', seconds: 37.9, tail: 40}, {key: 'S', seconds: 38.2, tail: 40}, {key: 'D', seconds: 38.5, tail: 40}, {key: 'D', seconds: 38.9, tail: 0}, {key: 'D', seconds: 39.1, tail: 0}, 
+    {key: 'F', seconds: 39.3, tail: 0}, {key: 'D', seconds: 39.5, tail: 0}, {key: 'D', seconds: 39.7, tail: 0}, {key: 'F', seconds: 39.9, tail: 0}, {key: 'D', seconds: 40.1, tail: 0},  {key: 'F', seconds: 40.4, tail: 0}, {key: 'D', seconds: 40.6, tail: 0},  , 
     
   ]
     
