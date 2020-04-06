@@ -1,7 +1,7 @@
 import Note from './note'
 
 export default class Afternoon {
-  constructor(ctx, dimensions, b1, b2, b3, b4, b5) {
+  constructor(ctx, dimensions, b1, b2, b3, b4, b5, level) {
     this.score = 0;
     this.button = b1;
     this.button2 = b2;
@@ -49,15 +49,40 @@ export default class Afternoon {
 
     this.lane = {A: [], S: [], D: [], F: [], G: []}
     
- 
-    this.notesInfo.forEach(note => {
-      setTimeout(
-        ()=>{      
-          let newnote = new Note(this.dimensions.width, this.dimensions.height, this.ctx, note.key, note.tail)
-          this.notes.push(newnote)
-          this.lane[note.key].push(newnote)}, 
-        (note.seconds*1000))
+    if (level === 'Hard') {
+      this.notesInfo.forEach(note => {
+        setTimeout(
+          ()=>{      
+            let newnote = new Note(this.dimensions.width, this.dimensions.height, this.ctx, note.key, note.tail)
+            this.notes.push(newnote)
+            this.lane[note.key].push(newnote)}, 
+          (note.seconds*1000))
+      })
+    } else if (level === 'Easy') {
+      this.notesInfo.forEach((note, i) => {
+        if (i % 3 === 0) {
+        setTimeout(
+          ()=>{      
+            let newnote = new Note(this.dimensions.width, this.dimensions.height, this.ctx, note.key, note.tail)
+            this.notes.push(newnote)
+            this.lane[note.key].push(newnote)}, 
+          (note.seconds*1000))
+      }
     })
+      
+    } else if (level === 'Medium') {
+        this.notesInfo.forEach((note, i) => {
+          if (i % 2 === 0) {
+          setTimeout(
+            ()=>{      
+              let newnote = new Note(this.dimensions.width, this.dimensions.height, this.ctx, note.key, note.tail)
+              this.notes.push(newnote)
+              this.lane[note.key].push(newnote)}, 
+            (note.seconds*1000))
+        }
+      })
+      
+    }
 
     
 
