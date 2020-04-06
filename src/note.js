@@ -268,7 +268,7 @@ export default class Note {
   }
 
   conflict(button) {
-    if (this.x < button.right+7 && this.x > button.x-7) {
+    if (this.x < button.right+8 && this.x > button.x-8) {
       return true;
     }
     return false;

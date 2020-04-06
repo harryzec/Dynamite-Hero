@@ -39,8 +39,16 @@ export default class Afternoon {
     {key: 'D', seconds: 32.3, tail: 0},{key: 'F', seconds: 32.5, tail: 0}, {key: 'D', seconds: 32.7, tail: 0}, {key: 'F', seconds: 33, tail: 0}, {key: 'A', seconds: 33.3, tail: 50}, {key: 'S', seconds: 33.8, tail: 50}, {key: 'D', seconds: 34.2, tail: 50},
     {key: 'S', seconds: 34.6, tail: 0}, {key: 'S', seconds: 35.4, tail: 0}, {key: 'S', seconds: 35.6, tail: 0}, {key: 'D', seconds: 35.8, tail: 0}, {key: 'A', seconds: 36, tail: 0}, {key: 'S', seconds: 36.2, tail: 0}, {key: 'S', seconds: 36.4, tail: 0}, {key: 'D', seconds: 36.6, tail: 0},
     {key: 'A', seconds: 36.8, tail: 0}, {key: 'S', seconds: 37, tail: 0}, {key: 'A', seconds: 37.9, tail: 40}, {key: 'S', seconds: 38.2, tail: 40}, {key: 'D', seconds: 38.5, tail: 40}, {key: 'D', seconds: 38.9, tail: 0}, {key: 'D', seconds: 39.1, tail: 0}, 
-    {key: 'F', seconds: 39.3, tail: 0}, {key: 'D', seconds: 39.5, tail: 0}, {key: 'D', seconds: 39.7, tail: 0}, {key: 'F', seconds: 39.9, tail: 0}, {key: 'D', seconds: 40.1, tail: 0},  {key: 'F', seconds: 40.4, tail: 0}, {key: 'D', seconds: 40.6, tail: 0},  , 
-    
+    {key: 'F', seconds: 39.3, tail: 0}, {key: 'D', seconds: 39.5, tail: 0}, {key: 'D', seconds: 39.7, tail: 0}, {key: 'F', seconds: 39.9, tail: 0}, {key: 'D', seconds: 40.1, tail: 0},  {key: 'F', seconds: 40.4, tail: 0}, {key: 'D', seconds: 40.6, tail: 0}, 
+    {key: 'A', seconds: 41.4, tail: 40}, {key: 'S', seconds: 41.7, tail: 40}, {key: 'D', seconds: 42.1, tail: 40}, {key: 'D', seconds: 42.6, tail: 0}, {key: 'D', seconds: 42.8, tail: 0},{key: 'S', seconds: 43, tail: 0}, {key: 'A', seconds: 43.3, tail: 0},
+    {key: 'S', seconds: 43.6, tail: 0}, {key: 'A', seconds: 43.8, tail: 0},{key: 'S', seconds: 44, tail: 0}, {key: 'A', seconds: 44.3, tail: 0}, {key: 'S', seconds: 44.6, tail: 40}, {key: 'S', seconds: 46.3, tail: 0}, {key: 'S', seconds: 46.5, tail: 0},
+    {key: 'D', seconds: 46.7, tail: 0}, {key: 'D', seconds: 46.9, tail: 0}, {key: 'F', seconds: 47.1, tail: 0}, {key: 'D', seconds: 47.4, tail: 0}, {key: 'A', seconds: 47.9, tail: 50}, {key: 'S', seconds: 48.3, tail: 50}, {key: 'D', seconds: 48.7, tail: 50},
+    {key: 'F', seconds: 49.1, tail: 50}, {key: 'A', seconds: 49.6, tail: 40}, {key: 'D', seconds: 51.3, tail: 0}, {key: 'D', seconds: 51.5, tail: 0}, {key: 'F', seconds: 51.7, tail: 0}, {key: 'F', seconds: 51.9, tail: 0},{key: 'F', seconds: 52.1, tail: 0},
+    {key: 'D', seconds: 52.3, tail: 0}, {key: 'D', seconds: 52.5, tail: 0}, {key: 'F', seconds: 52.7, tail: 0}, {key: 'F', seconds: 52.9, tail: 0}, {key: 'A', seconds: 53.3, tail: 40}, {key: 'F', seconds: 54.6, tail: 0},  {key: 'F', seconds: 54.8, tail: 0},
+    {key: 'D', seconds: 55, tail: 0}, {key: 'D', seconds: 55.2, tail: 0}, {key: 'F', seconds: 55.4, tail: 0}, {key: 'D', seconds: 55.9, tail: 0}, {key: 'D', seconds: 56.1, tail: 0}, {key: 'F', seconds: 56.3, tail: 0}, {key: 'A', seconds: 56.8, tail: 50},
+    {key: 'G', seconds: 58.4, tail: 0}, {key: 'F', seconds: 58.6, tail: 0}, {key: 'D', seconds: 58.8, tail: 0}, {key: 'S', seconds: 59, tail: 0}, {key: 'D', seconds: 59.2, tail: 0}, {key: 'S', seconds: 59.5, tail: 0}, {key: 'D', seconds: 59.7, tail: 0},
+    {key: 'A', seconds: 60.2, tail: 40}, {key: 'S', seconds: 60.5, tail: 40},{key: 'D', seconds: 60.9, tail: 40}, {key: 'A', seconds: 62.2, tail: 30}, {key: 'S', seconds: 62.4, tail: 30}, {key: 'D', seconds: 62.6, tail: 30}, {key: 'F', seconds: 62.8, tail: 30},
+    {key: 'D', seconds: 63.1, tail: 30}, {key: 'G', seconds: 63.3, tail: 30}, {key: 'F', seconds: 63.5, tail: 30},
   ]
     
     this.notes = [];
