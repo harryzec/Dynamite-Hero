@@ -33,7 +33,7 @@ There is a keydown Eventlistener and when the player hits a key that is designat
 
 ### Discoball
 
-Using some circular motion and math tricks I developed a disco ball, the discoball and the particles inside changes velocity based on your streak. A streak goes up to 3 and down to -3. The game starts you off at 0. 
+Using some circular motion, I developed a disco ball. the particles inside the ball change velocity based on your streak. A streak goes up to 3 and down to -3. The game starts you off at 0. 
 
 ```Javascript
 if (current.game){
