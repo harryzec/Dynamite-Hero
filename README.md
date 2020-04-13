@@ -14,7 +14,7 @@ Dynamite Hero is based off of guitar hero where you hit notes aligned with a son
 ## Code Highlights
 ### Hitting Notes
 
-I wrote a keydown eventlisteners and when the keys that are used in the game are selected, the game checks to see if there is a collision between the x axis of the left and right side of the buttons and notes (I gave people a little wiggle room).
+There is a keydown Eventlistener and when the player hits a key that is designated for a specific button, the game lights up the button and checks to see if there is a collision between the x-axis of the left and right side of the buttons and notes (I gave people a little wiggle room).
 
 ```Javascript
 
